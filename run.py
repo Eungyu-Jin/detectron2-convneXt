@@ -1,4 +1,4 @@
-from trainer import load_cfg, setup_cfg, Trainer
+from segmentation.trainer import load_cfg, setup_cfg, Trainer
 from detectron2.data.datasets import register_coco_instances
 import os
 
